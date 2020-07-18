@@ -1,5 +1,9 @@
-def main():
-  #print('You rolled a die')
+import random
+repeat="Y"
+while repeat == "Y":
+   print("Rolling the dice")
+   print(random.randint(1,6))
 
-if __name__== "__main__":
-  main()
+repeat =input("Do you wanna roll again Y/N?")
+if repeat=="Y":
+    continue
